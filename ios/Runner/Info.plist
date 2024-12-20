@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>FirebaseAppDelegateProxyEnabled</key>
-    <false/>
-    <key>ITSAppUsesNonExemptEncryption</key>
-    <false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
@@ -39,15 +35,17 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
 	<key>GIDClientID</key>
 	<string>275231286183-nvmhc9n0cv3missat9gkdejp8lpjtk2h.apps.googleusercontent.com</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-    <string>Bluetooth access to connect 58mm or 80mm thermal printers</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Bluetooth access to connect 58mm or 80mm thermal printers</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>Bluetooth access to connect 58mm or 80mm thermal printers</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs access to camera permission</string>

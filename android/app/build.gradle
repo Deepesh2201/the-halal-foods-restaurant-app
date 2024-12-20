@@ -27,7 +27,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.foodies.restaurant.android"
+    namespace = "com.thf.restaurant.android"
     compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
@@ -38,7 +38,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.foodies.restaurant.android"
+        applicationId = "com.thf.restaurant.android"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdk = 24
@@ -47,11 +47,30 @@ android {
         versionName = flutterVersionName
     }
 
+//    buildTypes {
+//        release {
+//            // TODO: Add your own signing config for the release build.
+//            // Signing with the debug keys for now, so `flutter run --release` works.
+//            signingConfig = signingConfigs.debug
+//        }
+//    }
+    signingConfigs {
+        release {
+            storeFile file("thfr-release-key.jks") // Replace with the actual path to your keystore file
+            storePassword "Deepesh@123" // Replace with your keystore password
+            keyAlias "thfr-key-alias" // Replace with your key alias
+            keyPassword "Deepesh@123" // Replace with your key password
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.debug
+            signingConfig signingConfigs.release
+            minifyEnabled false // Set to true and configure ProGuard for production
+            shrinkResources false // Set to true for resource shrinking
+        }
+        debug {
+            signingConfig signingConfigs.debug
         }
     }
 }

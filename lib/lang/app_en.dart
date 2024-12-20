@@ -92,8 +92,8 @@ const Map<String, String> enUS = {
   "Please enter mobile number": "Please enter mobile number",
   "Continue with Email": "Continue with Email",
   "Create an Account": "Create an Account",
-  "Join Foodie Restaurant today and start managing your restaurant’s orders and reservations effortlessly.":
-      "Join Foodie Restaurant today and start managing your restaurant’s orders and reservations effortlessly.",
+  "Join THF Restaurant today and start managing your restaurant’s orders and reservations effortlessly.":
+      "Join THF Restaurant today and start managing your restaurant’s orders and reservations effortlessly.",
   "First Name": "First Name",
   "Enter First Name": "Enter First Name",
   "Last Name": "Last Name",
@@ -136,7 +136,7 @@ const Map<String, String> enUS = {
   "Products": "Products",
   "Wallet": "Wallet",
   "Profile": "Profile",
-  "Welcome to Foodie Restaurant": "Welcome to Foodie Restaurant",
+  "Welcome to THF Restaurant": "Welcome to THF Restaurant",
   "New": "New",
   "History": "History",
   "Document Verification in Pending": "Document Verification in Pending",
@@ -377,7 +377,7 @@ const Map<String, String> enUS = {
   "HH:mm": "HH:mm",
   "Start Time": "Start Time",
   "Remove Time": "Remove Time",
-  "Foodie": "Foodie",
+  "THF": "THF",
   "Get Started": "Get Started",
   "Your Favorite Food Delivered Fast!": "Your Favorite Food Delivered Fast!",
 };
