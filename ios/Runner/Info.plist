@@ -48,17 +48,17 @@
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>Bluetooth access to connect 58mm or 80mm thermal printers</string>
 	<key>NSCameraUsageDescription</key>
-	<string>This app needs access to camera permission</string>
+	<string>This app needs access to camera permission. This permission required to upload menu items images and profile picture.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app needs access to location when open and in the background.</string>
+	<string>This app needs access to location when open and in the background. This permission is required to get orders from nearby and customers can also check the distance.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app needs access to location when in the background.</string>
+	<string>This app needs access to location when in the background. This permission is required to get orders from nearby and customers can also check the distance.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app needs access to location when open.</string>
+	<string>This app needs access to location when open. This permission is required to get orders from nearby and customers can also check the distance.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Used to capture audio for image picker plugin</string>
+	<string>Used to capture audio for image picker plugin. This permission is needed to make calls directly to delivery partners or to customers from application</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app needs access to your gallery photo.</string>
+	<string>This app needs access to your gallery photo. This permission is required to upload menu &amp; profile picture directly from gallery.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>
